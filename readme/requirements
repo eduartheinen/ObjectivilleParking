@@ -1,0 +1,15 @@
+--Objectville Parking--
+	functional requirements:
+		- o programa deve ser capaz de criar um novo estacionamento
+		- o programa deve ser capaz de encerrar um estacionamento existente
+		- o programa deve ser capaz de calcular o preço total do estacionamento de acordo com a duração
+		- o programa armazenar os estacionamentos no banco de dados
+		- o programa deve ser capaz de conectar a postgres ou mysql (dao)
+		- o programa deve interpretar as configurações de banco de dados de um arquivo properties (injeção de dependência)
+		- o programa deve alterar em tempo de execução a classe responsável por calcular o preço do estacionamento de acordo com o tipo de veículo e a duração (strategy)
+		- o programa deve oferecer uma interface
+		
+			- a interface deve listar os estacionamentos existentes
+			- a interface deve oferecer meios de criar um novo estacionamento
+			- a interface deve oferecer meios de encerrar um estacionamento existente
+			- a interface deve informar ao usuário o preço e a duração do estacionamento encerrado  
